@@ -2,24 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Accelerating Businesses Growth with AI.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href="https://www.dubizzlelabs.com/" target="_blank" rel="noopener noreferrer">Dubizzle Labs</a></p>
+    <p>
+      <a href="https://maps.app.goo.gl/t377gVkg2EVXH8sJ8" target="_blank" rel="noopener noreferrer">
+        3rd Floor, 63-B, Mega Tower, II Main Boulevard Gulberg
+      </a>
+    </p>
+    <p>Lahore, Punjab, Pakistan</p>
+
+
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! I'm Mohammad Anas, a Data Scientist and Software Engineer passionate about leveraging technology to solve real-world problems. My journey began with a strong foundation in Data Science at FAST NUCES, where I honed my skills in software engineering, data analysis, and artificial intelligence. I have a keen interest in building robust applications, exploring GenAI technologies, and creating intuitive user experiences.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I currently work as an Associate Software Engineer at Dubizzle Labs, leading frontend and backend development projects. In addition to my professional endeavors, I enjoy contributing to open-source projects, competing in AI competitions, and exploring cutting-edge advancements in AI and machine learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+When I’m not coding or working on a project, you might find me on my favorite subreddit discussing the latest in tech and innovation
