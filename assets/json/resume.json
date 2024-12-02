@@ -1,33 +1,51 @@
 {
   "basics": {
     "name": "Mohammad Anas",
-    "label": "Data Scientist | Software Engineer",
+    "title": "Data Scientist | Software Engineer | AI  Engineer",
+    "about": "An aspiring software engineer and data scientist with expertise in full-stack development, AI solutions, and data analysis.",
     "image": "",
     "email": "mohammadanas702@gmail.com",
     "phone": "(+92) 302 4197200",
-    "linkedin": "https://www.linkedin.com/in/mohammad-anas4321/",
-    "github": "https://github.com/AnasMohammad4321",
-    "summary": "An aspiring software engineer and data scientist with expertise in full-stack development, AI solutions, and data analysis.",
     "location": {
       "address": "DHA",
-      "postalCode": "",
+      "postalCode": "54792",
       "city": "Lahore",
       "countryCode": "PK",
       "region": "Punjab"
-    }
-  },
-  "profiles": [
-    {
-      "network": "LinkedIn",
-      "username": "anasmohammad4321",
-      "url": "https://www.linkedin.com/in/anasmohammad4321/"
     },
-    {
-      "network": "GitHub",
-      "username": "AnasMohammad4321",
-      "url": "https://github.com/AnasMohammad4321"
-    }
-  ],
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "anasmohammad4321",
+        "url": "https://www.linkedin.com/in/anasmohammad4321/"
+      },
+      {
+        "network": "GitHub",
+        "username": "AnasMohammad4321",
+        "url": "https://github.com/AnasMohammad4321"
+      },
+      {
+        "network": "Upwork",
+        "username": "mohammada182",
+        "url": "https://www.upwork.com/freelancers/mohammada182"
+      },
+      {
+        "network": "Fiverr",
+        "username": "mohammad_anas12",
+        "url": "https://www.fiverr.com/mohammad_anas12"
+      },
+      {
+        "network": "Facebook",
+        "username": "anas.anas.581730",
+        "url": "https://www.facebook.com/anas.anas.581730/"
+      },
+      {
+        "network": "Instagram",
+        "username": "_mohammad._.anas_",
+        "url": "https://www.instagram.com/_mohammad._.anas_"
+      }
+    ]
+  },
   "work": [
     {
       "name": "Dubizzle Labs",

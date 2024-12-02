@@ -1,10 +1,7 @@
 <table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
-  {% assign skip_basics = 'image,profiles,location' | split: ',' %}
+  {% assign skip_basics = 'image' | split: ',' %}
   {% for content in data[1] %}
-    {%
-      if (content[1] == "") or (skip_basics contains
-      content[0])
-    %}
+    {% if content[1] == '' or skip_basics contains content[0] %}
       {% continue %}
     {% endif %}
 
@@ -19,6 +16,26 @@
           <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
         {% elsif content[0] == 'phone' %}
           <a href="tel:{{ content[1] }}">{{ content[1] }}</a>
+        {% elsif content[0] == 'profiles' %}
+          <ul class="list-unstyled">
+            {% for profile in content[1] %}
+              <li>
+                <b>{{ profile.network }}:</b>
+                <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">
+                  {{ profile.username }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% elsif content[0] == 'location' %}
+          {% if content[1].address %}
+            {{ content[1].address }},
+          {% endif %}
+          {{ content[1].city }}, {{ content[1].region }},
+          {{ content[1].countryCode }}
+          {% if content[1].postalCode %}
+            - {{ content[1].postalCode }}
+          {% endif %}
         {% else %}
           {{ content[1] }}
         {% endif %}
