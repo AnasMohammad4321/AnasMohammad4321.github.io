@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - AnasMohammad4321
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - AnasMohammad4321/Chess-AI
+  - AnasMohammad4321/Onion-Routing
+  - AnasMohammad4321/UrduSearchPlus
+  - AnasMohammad4321/Library-Management-System
